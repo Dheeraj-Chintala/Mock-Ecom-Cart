@@ -3,6 +3,16 @@
 A full-stack shopping cart web app built for the **Vibe Commerce** screening test.  
 Implements a simple e-commerce flow: browse products, add/remove from cart, view totals, and perform a mock checkout. All with REST API integration.
 
+<div align="center">
+
+![React](https://img.shields.io/badge/Frontend-React-blue)
+![Node.js](https://img.shields.io/badge/Backend-Node.js-green)
+![MongoDB](https://img.shields.io/badge/Database-MongoDB-darkgreen)
+  
+</div>
+
+
+
 ---
 
 ### Demo 
@@ -115,7 +125,7 @@ node test.js
 
 
 
-### 3 Frotend Setup
+### 3 Frontend Setup
 
 ```bash
 # in new terminal
