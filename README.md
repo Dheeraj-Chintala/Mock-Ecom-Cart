@@ -1,17 +1,36 @@
-# 🛒 Mock E-Commerce Cart — Vibe Commerce Assignment
+# Mock E-Commerce Cart — Vibe Commerce Assignment
 
 A full-stack shopping cart web app built for the **Vibe Commerce** screening test.  
-Implements a simple e-commerce flow: browse products, add/remove from cart, view totals, and perform a mock checkout — all with REST API integration.
+Implements a simple e-commerce flow: browse products, add/remove from cart, view totals, and perform a mock checkout. All with REST API integration.
 
 ---
 
-## 🚀 Tech Stack
+### Demo 
+<img src="frontend/public/screenshots/demo.gif" alt="Demo is loading please wait!" height="500px"/>
 
-- **Frontend:** React (Vite )  
-- **Backend:** Node.js + Express  
-- **Database:** MongoDB   
-- **API Architecture:** REST  
-- **Deployment:** GitHub repo (no live hosting)
+
+### Screenshots
+
+  <img src="frontend/public/screenshots/Screenshot (286).png" height="350px"/>
+<img src="frontend/public/screenshots/Screenshot (288).png" height="350px"/>
+
+  <details>
+    <summary>More Screenshots</summary>
+      <img src="frontend/public/screenshots/Screenshot (287).png" height="350px"/>
+
+  <img src="frontend/public/screenshots/Screenshot (290).png" height="350px"/>
+  <img src="frontend/public/screenshots/Screenshot (291).png" height="350px"/>
+  </details>
+
+
+##  Tech Stack
+
+| **Component**       | **Technology**       |
+|----------------------|----------------------|
+|  **Frontend**      | React (Vite)         |
+|  **Backend**       | Node.js + Express    |
+|  **Database**      | MongoDB              |
+|  **API Architecture** | REST              |
 
 ---
 
@@ -66,23 +85,7 @@ Mock-Ecom-Cart/
 | `POST` | `/api/cart` | Add item `{ productId, qty }` to cart. |
 | `DELETE` | `/api/cart/:id` | Remove item from cart. |
 | `GET` | `/api/cart` | Get all cart items + total price. |
-| `POST` | `/api/orders/checkout` | Mock checkout; returns receipt `{ total, timestamp }`. |
-
-**Optional:**  
-- Persistent DB cart (mock user-based).  
-- Integration with **Fake Store API** for real product data.  
-- Error handling (invalid IDs, stock unavailable, etc.).
-
----
-
-### **Frontend (React)**
-
-- Product grid with **“Add to Cart”** buttons  
-- **Cart View**: Shows items, quantity, subtotal, and total  
-- **Update / Remove** items  
-- **Checkout Form** (name, email)  
-- On submission → Displays a **Receipt Modal** (mock confirmation)  
-- Responsive design for mobile and desktop  
+| `POST` | `/api/orders/checkout` | Mock checkout; returns receipt. |
 
 ---
 
@@ -100,11 +103,17 @@ node createEnv.js
 npm install
 npm start
 ```
-#### optional test backend
+
+<details>
+  <summary>Optional Backend Tests</summary>
+
 ```bash
 # in new terminal
 node test.js
 ```
+</details>
+
+
 
 ### 3 Frotend Setup
 
@@ -114,6 +123,7 @@ cd  Mock-Ecom-Cart/frontend
 npm install
 npm run dev
 ```
+
 
 
 
