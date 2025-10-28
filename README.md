@@ -1,4 +1,4 @@
-# Mock E-Commerce Cart — Vibe Commerce Assignment
+# Mock E-Commerce Cart 
 
 A full-stack shopping cart web app built for the **Vibe Commerce** screening test.  
 Implements a simple e-commerce flow: browse products, add/remove from cart, view totals, and perform a mock checkout. All with REST API integration.
@@ -11,9 +11,9 @@ Implements a simple e-commerce flow: browse products, add/remove from cart, view
   
 </div>
 
-
-
 ---
+
+
 
 ### Demo 
 <img src="frontend/public/screenshots/demo.gif" alt="Demo is loading please wait!" height="500px"/>
@@ -133,6 +133,10 @@ cd  Mock-Ecom-Cart/frontend
 npm install
 npm run dev
 ```
+
+##  Credits
+Built by [Dheeraj Chintala](https://github.com/Dheeraj-Chintala)  
+for the **Nexora**  assignment.
 
 
 
